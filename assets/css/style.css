@@ -1,0 +1,35 @@
+body {
+    color: white;
+    background-color: black;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 1em 0;
+}
+#instructions {
+    border: 1px solid white;
+    padding: 3px;
+}
+p {
+    margin: 1em 0;
+}
+#random-number {
+    border: 1px solid white;
+    font-size: 36px;
+    font-weight: bold;
+}
+#scoreboard {
+    border: 1px solid white;
+}
+#crystals {
+    text-align: center;
+}
+#crystal1, #crystal2, #crystal3, #crystal4 {
+    height: 75px;
+    margin: 10px;
+}
+#game-score {
+    font-size: 36px;
+    font-weight: bold;
+}
