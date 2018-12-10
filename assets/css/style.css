@@ -25,7 +25,7 @@ p {
 #crystals {
     text-align: center;
 }
-#crystal1, #crystal2, #crystal3, #crystal4 {
+.crystal {
     height: 75px;
     margin: 10px;
 }
