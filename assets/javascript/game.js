@@ -22,12 +22,12 @@ $(function() {
         $("#game-score").text(gameScore);
 
         if (gameScore == randomNumber) {
-            // you win!
+            $("#wonOrLost").text("You won!");
             $("#wins").text(parseInt( $("#wins").text() ) + 1);
             resetGame();
         }
         else if (gameScore > randomNumber) {
-            // you lose!
+            $("#wonOrLost").text("You lost!");
             $("#losses").text(parseInt( $("#losses").text() ) + 1);
             resetGame();
         }
